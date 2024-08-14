@@ -1,0 +1,455 @@
+*{
+ margin: 0;
+ border: border-box;
+}
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.text-tittle{
+    font-family: "Inter", sans-serif;
+}
+
+/* font-02 */
+
+  @import url('https://fonts.cdnfonts.com/css/miama');
+
+.font-ii{
+    font-family: 'Miama', sans-serif;                                            
+    font-size: 70px;
+}
+/* font-03 */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+}
+/* shared link */
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    color: aliceblue;
+}
+.run-easily{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 35px 150px;
+    background-color: rgb(0, 0, 0);
+}
+
+/* navbar section */
+
+
+.navbar {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px 150px;
+    background-color: rgb(32, 32, 32);
+}
+.nav-tittle{
+    color: rgb(230, 83, 60);
+    font-size: 36px;
+}
+
+.nav-link{
+    display: flex;
+    font-weight: 700;
+    padding: 5px 0 5px 1.9px;
+    margin-left: 3px;
+    border: 0.05px solid rgb(175, 175, 175);
+    border-radius: 20px;
+    
+
+}
+.navlink :hover{
+    border: 2px solid rgb(230, 83, 60);
+    border-radius:15px ;
+    margin-right: 1px;
+    background-color: rgb(230, 83, 60);
+    padding: 4px 8px;
+}
+.navlink{
+    margin-right: 10px ;
+}
+/*html css love remain forevegfgfh */
+.navlink a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+/* .nav-link ul {
+    display: flex;
+    list-style: none;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: 0.05px solid rgba(255, 255, 255, 0.171);
+}
+.nav-link ul li:hover{
+    border-radius: 25px;
+    padding: 8px 10px;
+    background-color: rgb(230, 83, 60);
+   
+}
+.nav-link ul li {
+    margin-left: 15px;
+}
+
+.nav-link ul a {
+    text-decoration: none;
+    color: aliceblue;
+} */
+
+
+/* body section */
+
+.body{
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(34, 34, 34);
+    padding: 30px 150px 0 150px;
+}
+.body-shape{
+  margin-top: 40px;
+}
+
+.body-tittle{
+    font-size: 70px;
+}
+.body-description{
+    margin: 10px 0 10px 0;
+    font-weight: 600;
+    padding: 0 35px 0 0 ;
+    color: rgb(126, 126, 126);
+}
+/* .body-button{
+    margin-left: 10px;
+} */
+.btn-join{
+    background-color: rgb(230, 83, 60);
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btn-down{
+    background-color: rgb(32, 32, 32);
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.tutorial{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 200px;
+    height: 95px;
+    background-color: rgba(83, 82, 82, 0.26);
+    color: white;
+    border: 0.06px solid rgba(59, 57, 57, 0.164);
+    margin-left: -450px;
+    margin-top: 400px;
+}
+.tutorial-element{
+    border: 1px solid rgb(230, 83, 60);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+    margin-right: 10px;
+
+}
+.Workout{
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    width: 200px;
+    height: 95px;
+    background-color: rgba(83, 81, 81, 0.288);
+    color: white;
+    border: 0.06px solid rgba(75, 74, 74, 0.288);
+    margin-left: -120px;
+    /* margin-bottom: -400px; */
+
+}
+.workout-content{
+    margin-top: -300px;
+}
+.Workout-tittle{
+    font-weight:600;
+    font-size: 1.25rem;
+}
+
+
+
+/* Habit section */
+
+
+.habit{
+    text-align: center;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 50px 150px ;
+}
+
+.habit-tittle{
+    padding: 50px 200px;
+}
+.habit-tittle h1{
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.habit-tittle p{
+    /* border: 2px solid red; */
+    padding: 5px 80px;
+    color: rgb(126, 126, 126);
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    color: white;
+}
+
+.habit-card img{
+    border-radius: 50%;
+    border: 6px solid rgb(32, 32, 32);
+    margin-bottom: 15px;
+}
+.card-tittle{
+    padding: 10px 20px;
+}
+.card-tittle p{
+    color: rgb(126, 126, 126);
+}
+
+
+/* easily section */
+
+.easily{
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding: 20px 20px;
+    display: flex;
+    /* border: 2px solid red; */
+    background-color: rgba(233, 231, 231, 0.055);
+}
+
+.easily-tittle{
+    color: white;
+    /* border: 2px solid rgb(34, 0, 128); */
+    margin-right: 55px;
+    margin-left: 30px;
+    padding: 0 150px 0 0;
+}
+.easily-tittle p{
+    padding: 10px 0;
+    color: rgb(126, 126, 126);
+}
+.easily-btn{
+    font-weight: 600;
+    padding: 10px 35px;
+    background-color: rgb(230, 83, 60);
+}
+.easily-img{
+    width: 50%;
+    height: 50%;
+    /* border: 2px solid green; */
+    border-radius: 20px;
+}
+
+/* BMI calculator */
+
+.bmi{
+    margin: 0 auto;
+    color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 100px 0 25px 0;
+}
+.bmi p{
+    color: rgb(126, 126, 126);
+    padding: 10px 0;
+}
+
+/* BMI calc */
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid rgb(126, 126, 126);
+    padding: 10px 15px;
+}
+tbody{
+    color: rgb(126, 126, 126);
+}
+.bmi-cal{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(32, 32, 32);
+    display: flex;
+    color: white;
+    padding: 80px 150px;
+   
+}
+.bmi-chart{
+    border: 2px solid red;
+    width: 500px;
+    margin-left: 10%;
+}
+
+/* bmi form */
+
+.bmi-form-section{
+    margin-left: 100px  ;
+    border: 2px solid red;
+    padding: 5px 70px;
+}
+.bmi-form-section p{
+    color: rgb(126, 126, 126);
+    padding: 10px 0;
+}
+#input{
+    border: none;
+    border-radius: 10px;
+    padding: 5px 5px;
+    max-width: 280px;
+    margin-bottom: 10px;
+    background-color: rgb(55, 55, 55);
+    color: rgb(175, 175, 175) ;
+}
+
+
+/* meet our team */
+
+.our-team{
+    color: white;
+    text-align: center;
+    padding: 35px 150px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+}
+
+.team-tittle p{
+    padding: 15px 0;
+    color: rgb(126, 126, 126);
+}
+
+.team-member{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    text-align: center;
+    justify-items: center;
+    padding: 45px 35px;
+    border-radius: 20px;
+    background-color: rgb(55, 55, 55);
+}
+.team-member img{
+    border-radius: 25px;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+
+
+/* footer */
+footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 35px 150px;
+    background-color: rgb(25, 25, 25);
+}
+
+.footer-content{
+    display: flex;
+}
+.footer-des{
+    color: rgb(126, 126, 126);
+}
+#footer-tittle{
+    width: 150px;
+    padding: 20px 250px 20px 0;
+    /* border: 2px solid red; */
+    margin-left: 120px;
+}
+
+#footer-tittle p{
+    /* border: 3px solid green; */
+    margin-right: -250px;
+}
+.footer-get1{
+    /* border: 3px solid yellow; */
+    padding: 20px 0;
+    margin: 0 45px;
+    list-style: none;
+}
+.footer-get1 h4 ,.footer-get2 h4{
+    padding-bottom: 10px;
+    color: aliceblue;
+}
+.footer-get1 li,.footer-get2 li{
+    color: rgb(126, 126, 126);
+}
+.footer-get2{
+    padding: 20px 0;
+    list-style: none;
+}
+.margin-bottom{
+    border-bottom: 2px solid rgb(126, 126, 126);
+}
+
+.reserved{
+    text-align: center;
+    padding-top: 20px;
+    color: rgb(126, 126, 126);
+}
+/* small device */
+
+@media screen and (max-width:576px) {
+
+    .navbar{
+        margin: 0 auto;
+        padding: 15px ;
+    }
+    .nav-link{
+        display: none;
+    }
+  .body{
+    max-width: 576px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 0 20px 0 15px ;
+  }
+  .body-shape{
+    padding: 35px 50px 5px 35px;
+  }
+  .body-im{
+    padding: auto;
+  }
+  .tutorial{
+    padding: 5px;
+ margin-left: -15px;
+ margin-top: -150px;
+}
+/* .tutorial-content{
+    border: 3px solid red;
+    margin-left: -100px;
+    margin-top: -150px;
+} */
+.workout-content{
+    border: 3px solid red;
+
+    align-items: center;
+    margin-left: 300px;
+    margin-bottom: 0px;
+    margin-top: -450px;
+    width: 300px;
+}
+}
